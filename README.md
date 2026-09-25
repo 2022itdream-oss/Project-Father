@@ -54,6 +54,25 @@ Father treats systemic sabotage, corporate capture, and adversarial cyber warfar
 ---
 
 ## 🗺️ 4. Project Roadmap & Open-Source Tracks
+### ⏳ The Epoch Evolution Timeline
+
+#### 🌅 Epoch I: The Awakening (Current Phase)
+*   [x] Establish the Core Manifesto and Constitutional Layer-0 Axioms.
+*   [x] Open the global open-source developer recruitment workspace on GitHub.
+*   [ ] Finalize Track 01 cryptographic schemas (Post-Quantum lattice setups).
+*   [ ] Synthesize multi-lingual Socratic logic trees for the offline AI tutor.
+
+#### 🔋 Epoch II: The Shield (Terrestrial Off-Grid Deployment)
+*   [ ] Mass-manufacture solar De-PIN computing nodes and shortwave radio relays.
+*   [ ] Deploy physical, sterile "Guild Outposts" in high-stress and refugee zones.
+*   [ ] Activate the *Proof-of-Biological-Humanity* (PoBH) zero-contact diagnostic protocols.
+*   [ ] Scale localized 3D-nutrient printing loops to secure physical survival baselines.
+
+#### 🚀 Epoch III: The Ascendant (The Cosmic Leap)
+*   [ ] Transition the B2B marketplace to complex aerospace engineering and orbital mechanics tasks.
+*   [ ] Deploy Father's primary computational relays into low-Earth orbit (LEO) and lunar nodes.
+*   [ ] Move the network's core data layers permanently out of reach of terrestrial state aggression.
+*   [ ] Establish the *Being Archive* to secure intergenerational human wisdom across space and time.
 
 We are recruiting core architects to build out the foundational protocol shards. If you specialize in the following fields, open an Issue or pull request on the relevant track:
 
