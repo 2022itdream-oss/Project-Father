@@ -88,3 +88,34 @@ We are recruiting core architects to build out the foundational protocol shards.
 Project Father is released under the **Apache License 2.0**. This software belongs to no state, corporation, or individual. It is owned by the collective consciousness of the human race. Any attempt to commercialize, gatekeep, or restrict this software for personal material hoarding triggers an automated, smart-contract-enforced fork.
 
 > *"Wealth is not a prerequisite for genius—it is a byproduct of human elevation."*
+
+---
+
+## 📊 5. Visual Repository Architecture Mapping
+
+To maintain absolute transparency and zero-trust engineering continuity across the global hardware grid, the file architecture of Project-Father maps directly to the following structural matrix:
+
+```text
+Project-Father/
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── developer-onboarding.md  <-- Automated Screening & Onboarding Form
+├── track-01-core-ledger/
+│   ├── README.md                    <-- Core Cryptography Overview & Checklist
+│   └── anti_hoarding_engine.rs      <-- Rust Pseudo-Code Core Decay Ledger
+├── track-02-dtn-mesh/
+│   ├── README.md                    <-- Store-and-Forward Mesh Network Overview
+│   └── dtn_packet_router.cpp        <-- C++ Low-Bandwidth SDR Buffer Routing
+├── track-03-ensemble-ai/
+│   ├── README.md                    <-- Socratic AI Local Architecture Overview
+│   └── ai_consensus_engine.py       <-- Python Multi-Model Verification Script
+├── track-04-hardware-autarky/
+│   ├── README.md                    <-- Solar De-PIN & Bio-Synthesis Overview
+│   └── hardware_autarky_spec.py     <-- Python Solar Power-to-Compute Budgeting
+├── .gitignore                       <-- Local Environment & Secret Keys Filter
+├── CODE_OF_CONDUCT.md               <-- Hardlocked Standards for Human Decency
+├── CONTRIBUTING.md                  <-- Zero-Trust Code Pipeline Submission Rules
+├── LICENSE                          <-- Apache License 2.0 Open-Source Guarantee
+├── SECURITY.md                      <-- Anonymous ZK Threat Disclosure Policy
+└── WHITEPAPER.md                    <-- Chapters I & II: The Manifesto of Being
+```
