@@ -1,0 +1,31 @@
+- name: "🏛️ track-01-ledger"
+  color: "b60205"
+  description: "Tasks relating to core consensus scripts, post-quantum cryptography, and anti-hoarding tokenomics."
+
+- name: "📡 track-02-mesh"
+  color: "0e8a16"
+  description: "Tasks relating to shortwave radio packet framing, SDR routing, and delay-tolerant networks."
+
+- name: "🤖 track-03-ai"
+  color: "1d76db"
+  description: "Tasks relating to multi-model AI ensemble optimization, prompt filtering, and Socratic dialogues."
+
+- name: "🧪 track-04-hardware"
+  color: "f9d0c4"
+  description: "Tasks relating to solar compute node designs, 3D printing viscosity metrics, and bioreactors."
+
+- name: "🚀 quest-bounty"
+  color: "5319e7"
+  description: "Official, high-priority system quests linked to foundational project development milestones."
+
+- name: "🛡️ security-triage"
+  color: "e99695"
+  description: "Critical vulnerability patches, immune department reviews, or anti-poisoning engine filters."
+
+- name: "👋 help-wanted"
+  color: "128A0C"
+  description: "Open community tasks seeking contribution from specific cryptographic or engineering specialists."
+
+- name: "🧠 logic-check"
+  color: "cccccc"
+  description: "Reviewing mathematical algorithms, physics boundaries, or first-principles lesson flows."
