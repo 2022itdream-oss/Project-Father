@@ -1,25 +1,24 @@
 # Project-Father: The Sovereign Omni-Channel Cognitive Evolution Engine
 
 Project-Father/
-├── .github/
-│   └── workflows/
-│       └── ci.yml             # CI/CD pipeline configuration
-├── docs/
-│   ├── architecture.md        # Deep dive into system design
-│   └── api-spec.md            # API documentation / OpenAPI spec
-├── src/
-│   ├── components/            # Reusable core modules or UI components
-│   ├── services/              # Business logic & external API integrations
-│   ├── utils/                 # Shared helper functions
-│   └── index.js               # Application entry point
-├── tests/
-│   ├── unit/                  # Unit test suites
-│   └── integration/           # Integration test suites
-├── .gitignore                 # Files to exclude from Git tracking
-├── LICENSE                    # Open-source license (e.g., MIT)
-├── README.md                  # Main project overview and setup guide
-└── package.json               # Dependencies & project scripts (or pyproject.toml / Cargo.toml)
-
+â”œâ”€â”€ .github/
+â”‚   â””â”€â”€ workflows/
+â”‚       â””â”€â”€ ci.yml             # CI/CD pipeline configuration
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ architecture.md        # Deep dive into system design
+â”‚   â””â”€â”€ api-spec.md            # API documentation / OpenAPI spec
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ components/            # Reusable core modules or UI components
+â”‚   â”œâ”€â”€ services/              # Business logic & external API integrations
+â”‚   â”œâ”€â”€ utils/                 # Shared helper functions
+â”‚   â””â”€â”€ index.js               # Application entry point
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ unit/                  # Unit test suites
+â”‚   â””â”€â”€ integration/           # Integration test suites
+â”œâ”€â”€ .gitignore                 # Files to exclude from Git tracking
+â”œâ”€â”€ LICENSE                    # Open-source license (e.g., MIT)
+â”œâ”€â”€ README.md                  # Main project overview and setup guide
+â””â”€â”€ package.json               # Dependencies & project scripts (or pyproject.toml / Cargo.toml)
 # Project Father
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
