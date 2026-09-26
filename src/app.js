@@ -1,16 +1,14 @@
 const express = require("express");
-const { createUser, formatUserProfile } = require("./services/userService");
+const { createUser, getAllUsers, getUserById } = require("./services/userService");
 const { logInfo, logError } = require("./utils/logger");
 
 const app = express();
 app.use(express.json());
 
-// Health check endpoint
 app.get("/api/health", (req, res) => {
   res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
-// Create user REST endpoint
 app.post("/api/users", (req, res) => {
   try {
     const user = createUser(req.body);
@@ -20,6 +18,11 @@ app.post("/api/users", (req, res) => {
     logError(`API error creating user: ${error.message}`);
     res.status(400).json({ success: false, error: error.message });
   }
+});
+
+app.get("/api/users", (req, res) => {
+  const users = getAllUsers();
+  res.status(200).json({ success: true, count: users.length, data: users });
 });
 
 module.exports = app;

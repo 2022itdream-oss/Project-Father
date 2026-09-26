@@ -1,6 +1,4 @@
-/**
- * User Service - Core Business Logic for Project Father
- */
+const userRepository = require("../data/userRepository");
 
 function createUser({ name, email, role = "user" }) {
   if (!name || typeof name !== "string" || name.trim().length === 0) {
@@ -11,13 +9,23 @@ function createUser({ name, email, role = "user" }) {
     throw new Error("Invalid user email address provided.");
   }
 
-  return {
+  const newUser = {
     id: `usr_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
     name: name.trim(),
     email: email.toLowerCase().trim(),
     role,
     createdAt: new Date().toISOString(),
   };
+
+  return userRepository.save(newUser);
+}
+
+function getUserById(id) {
+  return userRepository.findById(id);
+}
+
+function getAllUsers() {
+  return userRepository.findAll();
 }
 
 function formatUserProfile(user) {
@@ -30,5 +38,7 @@ function formatUserProfile(user) {
 
 module.exports = {
   createUser,
+  getUserById,
+  getAllUsers,
   formatUserProfile,
 };
