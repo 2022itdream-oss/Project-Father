@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/2022itdream-oss/Project-Father/issues"
   },
-  "homepage": "https://github.com/2022itdream-oss/Project-Father#readme"
+  "homepage": "https://github.com/2022itdream-oss/Project-Father#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
 }
