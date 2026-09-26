@@ -1,0 +1,23 @@
+# Project Father - System Architecture
+
+## Overview
+Project Father is structured as a modular Node.js application designed for scalability, maintainability, and clear separation of concerns.
+
+## Directory Layout
+* `src/`: Core application source code
+  * `index.js`: Application entry point and initialization
+  * `components/`: UI components or core business logic modules
+  * `services/`: External API integration, database access, and async handlers
+  * `utils/`: Shared helper functions, logging, and validation modules
+* `docs/`: Technical specifications, architecture docs, and developer guides
+* `tests/`: Automated unit and integration test suites
+
+## Data Flow
+1. **Entry Point (`src/index.js`)**: Loads environment variables, configurations, and bootstraps active services.
+2. **Services (`src/services/`)**: Processes business logic and communicates with internal and external data sources.
+3. **Utilities (`src/utils/`)**: Provides standardized error logging, request parsing, and helper functions across services.
+
+## Development Guidelines
+* Use modular, functional JavaScript syntax.
+* Keep core business logic separate from entry point scripts.
+* Ensure all new features include unit tests under `tests/unit/`.
