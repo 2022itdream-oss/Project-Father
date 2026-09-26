@@ -1,26 +1,9 @@
-/**
- * Project Father - Core Application Entry Point
- */
-
+const app = require("./app");
 const config = require("./utils/config");
-const { logInfo, logError } = require("./utils/logger");
-const { createUser, formatUserProfile } = require("./services/userService");
+const { logInfo } = require("./utils/logger");
 
-function main() {
-  logInfo(`Starting ${config.appName} in [${config.environment}] mode...`);
+const PORT = config.port || 3000;
 
-  try {
-    const newUser = createUser({
-      name: "System Administrator",
-      email: "admin@projectfather.internal",
-      role: "admin",
-    });
-
-    logInfo(`User created successfully: ${newUser.id}`);
-    logInfo(formatUserProfile(newUser));
-  } catch (error) {
-    logError(`Failed to process user service: ${error.message}`);
-  }
-}
-
-main();
+app.listen(PORT, () => {
+  logInfo(`${config.appName} HTTP server running on port ${PORT}`);
+});
